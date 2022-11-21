@@ -11,10 +11,13 @@
     margin: 10px;
     cursor: pointer;
 }
+
 .Bouton:hover {
     background-color: #7B0D1E;
 }
 
 .Bouton:active {
     background-color: #7B0D1EDD;
-};
+}
+
+;

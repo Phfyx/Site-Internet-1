@@ -2,8 +2,8 @@ import Slideshow from "../Slideshow/Slideshow";
 
 const SlideshowApp = () => {
   const slides = [
-    { url: "http://localhost:3001/image1.jpg", title: "Chevalier" },
-    { url: "http://localhost:3001/image2.jpg", title: "Assasin sur bateau" },
+    { url: "http://localhost:3000/carroussel_img_1.jpg"}, // Asssassin
+    { url: "http://localhost:3000/carroussel_img_2.jpg"}, // Chevalier sur un bateau
 
   ];
   const containerStyles = {
@@ -14,7 +14,7 @@ const SlideshowApp = () => {
   return (
     <div>
       <div style={containerStyles}>
-      <Slideshow slides={slides} />
+        <Slideshow slides={slides} />
       </div>
     </div>
   );

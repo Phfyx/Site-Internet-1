@@ -16,7 +16,7 @@ export default function Texte() {
                     <b>{prenom}</b> est le plus beau, il a <b>{age}</b> ans
                 </p>
             </div>
-            <div className= 'boite-Parametres'>
+            <div className='boite-Parametres'>
                 <div className='Parametres'>
                     <form onSubmit={(event) => {
                         event.preventDefault();
@@ -27,7 +27,7 @@ export default function Texte() {
                             placeholder='Prénom'
                             onChange={(e) => setTempP(e.target.value)}
                         />
-                        <Bouton 
+                        <Bouton
                             onClick={() => setPrenom(tempP)}
                             title="Changer le prénom"
                             type="submit"
@@ -39,7 +39,7 @@ export default function Texte() {
                         event.preventDefault();
                         setAge(tempA);
                     }}>
-                        <input 
+                        <input
                             type='text'
                             placeholder='Âge'
                             onChange={(e) => setTempA(e.target.value)}
@@ -49,10 +49,10 @@ export default function Texte() {
                             title="Changer l'âge"
                         />
                     </form>
-                    
+
                 </div>
             </div>
-            
+
         </div>
 
     )
