@@ -1,22 +1,22 @@
 .Texte-centre {
-    text-align: center;
-    font-size: 30px;
-    margin: 10px 0 25px 0;
+  text-align: center;
+  font-size: 30px;
+  margin: 10px 0 25px 0;
 }
 
 .boite-Parametres {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .Parametres {
-    margin: 10px;
-    width: fit-content;
+  margin: 10px;
+  width: fit-content;
 }
 
 .bouton-Parametres {
-    margin: 10px;
-    width: fit-content;
+  margin: 10px;
+  width: fit-content;
 }

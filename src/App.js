@@ -1,13 +1,13 @@
-import Texte from './components/Texte/Texte';
+import Texte from "./components/Texte/Texte";
 import Topbar from "./components/Topbar/Topbar";
-import SlideshowApp from './components/SlideshowApp/SlideshowApp';
+import SlideshowApp from "./components/SlideshowApp/SlideshowApp";
 
 function App() {
   return (
     <div className="App">
       <Topbar />
       <Texte />
-      <SlideshowApp /> 
+      <SlideshowApp />
     </div>
   );
 }

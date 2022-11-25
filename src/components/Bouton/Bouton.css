@@ -1,23 +1,21 @@
 .Bouton {
-    background-color: #9F2042;
-    width: fit-content;
-    height: fit-content;
-    padding: 5px;
-    border: solid 1px #7B0D1E;
-    border-radius: 10px;
-    color: white;
-    user-select: none;
-    display: inline;
-    margin: 10px;
-    cursor: pointer;
+  background-color: #9f2042;
+  width: fit-content;
+  height: fit-content;
+  padding: 5px;
+  border: solid 1px #7b0d1e;
+  border-radius: 10px;
+  color: white;
+  user-select: none;
+  display: inline;
+  margin: 10px;
+  cursor: pointer;
 }
 
 .Bouton:hover {
-    background-color: #7B0D1E;
+  background-color: #7b0d1e;
 }
 
 .Bouton:active {
-    background-color: #7B0D1EDD;
+  background-color: #7b0d1edd;
 }
-
-;
