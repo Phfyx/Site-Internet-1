@@ -1,4 +1,5 @@
 import logo from '../../assets/img/logo.png';
+import Menu from '../Menu/Menu';
 
 export default function Topbar() {
     return (
@@ -10,6 +11,7 @@ export default function Topbar() {
                 marginBottom: "20px",
                 display: "flex",
                 flexDirection: "row",
+                justifyContent: "space-between"
             }}>
             <img
                 src={logo}
@@ -20,6 +22,8 @@ export default function Topbar() {
                 }}
                 onClick={() => window.location.href = ""}
             />
-        </div>
+            <Menu/>
+            
+        </div>    
     )
 }

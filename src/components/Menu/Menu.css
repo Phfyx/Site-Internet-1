@@ -1,0 +1,16 @@
+.Menu {
+    background-color: #9F2042;
+    cursor: pointer;
+    border: none;
+}
+
+.lienMenu{
+    padding: 5px;
+    margin-top: 5px;
+    
+}
+
+.NavList{
+    display: flex;
+    flex-direction: column;
+}
