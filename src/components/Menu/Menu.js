@@ -18,10 +18,10 @@ export default function Menu() {
           <a className="lienMenu" href="/">
             Home
           </a>
-          <a className="lienMenu" href="/">
+          <a className="lienMenu" href="/aboutme">
             About me
           </a>
-          <a className="lienMenu" href="/">
+          <a className="lienMenu" href="/contact">
             Contact
           </a>
         </div>

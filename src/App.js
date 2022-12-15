@@ -1,13 +1,16 @@
-import Texte from "./components/Texte/Texte";
-import Topbar from "./components/Topbar/Topbar";
-import SlideshowApp from "./components/SlideshowApp/SlideshowApp";
+import Home from "./pages/Home/Home";
+import Contact from "./pages/Contact/Contact";
+import Aboutme from "./pages/Aboutme/Aboutme";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Topbar />
-      <Texte />
-      <SlideshowApp />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/aboutme" element={<Aboutme />} />
+      </Routes>
     </div>
   );
 }
