@@ -1,13 +1,13 @@
-import Texte from "../../components/Texte/Texte";
 import Topbar from "../../components/Topbar/Topbar";
-import SlideshowApp from "../../components/SlideshowApp/SlideshowApp";
+import "./Home.css"
 
 function Home() {
   return (
-    <div className="Home">
+    <div>
       <Topbar />
-      <Texte />
-      <SlideshowApp />
+      <div className="Home">
+        <h1>Home</h1>
+      </div>
     </div>
   );
 }

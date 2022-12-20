@@ -1,9 +1,25 @@
 .container {
   text-align: center;
-  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  justify-content: center;
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
 .container img {
   width: 100px;
   cursor: pointer;
-  padding: 100px;
+  margin: 20px;
+  transition: transform 0.5s;
+}
+
+.container img:hover {
+  transform: scale(1.1);
 }

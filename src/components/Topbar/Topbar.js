@@ -1,5 +1,6 @@
 import logo from "../../assets/img/Logo/logo.png";
 import Menu from "../Menu/Menu";
+import "./Topbar.css"
 
 export default function Topbar() {
   return (
@@ -21,7 +22,7 @@ export default function Topbar() {
           transform: "scale(0.8)",
           cursor: "pointer",
         }}
-        onClick={() => (window.location.href = "")}
+        onClick={() => (window.location.href = "/")}
       />
       <Menu />
     </div>
